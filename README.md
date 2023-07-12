@@ -193,7 +193,7 @@ GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/THUDM/chatglm2-6b
 
 ### 网页版 Demo
 
-![web-demo](resources/web-demo.gif)
+![web-demo](resources/web-demo2.gif)
 
 可以通过以下命令启动基于 Streamlit 的网页版 demo：
 ```shell
@@ -207,6 +207,9 @@ streamlit run web_demo2.py
 ```shell
 python web_demo.py
 ```
+运行效果如下：
+![web-demo](resources/web-demo.gif)
+
 经测试，如果输入的 prompt 较长的话，使用基于 Streamlit 的网页版 Demo 会更流畅。
 
 ### 命令行 Demo
